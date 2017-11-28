@@ -1,0 +1,16 @@
+extends: ../styleguide/.eslintrc
+
+rules:
+  strict: 0
+  no-unused-expressions: 0
+
+parserOptions:
+  ecmaVersion: 8
+  sourceType: "module"
+
+env:
+  node: true
+  mocha: true
+
+globals:
+  Promise: true

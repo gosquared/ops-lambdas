@@ -1,0 +1,25 @@
+{
+  "name": "ops-lambdas",
+  "version": "0.0.1",
+  "description": "Lambdas for opsy things.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "sls deploy --stage prod",
+    "test": "sls invoke test --compilers js:babel-register"
+  },
+  "author": "Geoff Wagstaff <geoff@gosquared.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.10.0",
+    "serverless": "^1.24.1",
+    "serverless-mocha-plugin": "^1.7.0",
+    "serverless-plugin-aws-alerts": "^1.2.4",
+    "serverless-webpack": "^4.0.0",
+    "sinon": "^4.1.2",
+    "sinon-chai": "^2.14.0",
+    "webpack": "^3.8.1"
+  }
+}
